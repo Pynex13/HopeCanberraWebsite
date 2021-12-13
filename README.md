@@ -9,6 +9,11 @@ The objective of this repo is to store Hope Canberra website files. The website 
 
 | Task | Date | Status |
 |------|------|--------|
-|  brainstorming    |      |        |
-|      |      |        |
-|      |      |        |
+|  brainstorming    |   13/12   |   ideas       |
+|  put basic template into github    |  14/12    |        |
+|  barebone front page    |  20/12    |        |
+
+
+
+
+

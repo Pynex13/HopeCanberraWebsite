@@ -1,2 +1,17 @@
-# HopeCanberraWebsite
-website for Hope Canberrra
+# Hope Canberra Website
+
+
+
+
+# # #Objective
+
+
+
+
+# # # Timeline
+
+| Date | Task | Status |
+|------|------|--------|
+|      |      |        |
+|      |      |        |
+|      |      |        |

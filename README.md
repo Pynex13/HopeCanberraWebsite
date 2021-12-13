@@ -1,17 +1,14 @@
 # Hope Canberra Website
 
+### Objective
+
+The objective of this repo is to store Hope Canberra website files. The website will be created in NodeJS and React. 
 
 
+### Timeline
 
-# # #Objective
-
-
-
-
-# # # Timeline
-
-| Date | Task | Status |
+| Task | Date | Status |
 |------|------|--------|
-|      |      |        |
+|  brainstorming    |      |        |
 |      |      |        |
 |      |      |        |

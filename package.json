@@ -1,0 +1,22 @@
+{
+  "name": "hopecanberrawebsite",
+  "version": "1.0.0",
+  "description": "The objective of this repo is to store Hope Canberra website files. The website will be created in NodeJS and React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pynex13/HopeCanberraWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pynex13/HopeCanberraWebsite/issues"
+  },
+  "homepage": "https://github.com/Pynex13/HopeCanberraWebsite#readme",
+  "devDependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

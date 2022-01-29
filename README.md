@@ -13,7 +13,7 @@ The objective of this repo is to store Hope Canberra website files. The website 
 |  put basic template into github    |  14/12    |        |
 |  barebone front page    |  20/12    |        |
 | ideation  | 13/1  |   |
-| Set up Private Server | 16/1 |  [link](pynex13.site)  |
+| Set up Private Server | 16/1 |  [link](http://www.pynex13.site)  |
 
 
 

@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Pynex13/HopeCanberraWebsite#readme",
   "devDependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0"
   }
 }

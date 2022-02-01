@@ -2,10 +2,10 @@
     font-size: x-large;
     white-space: nowrap;
     overflow: hidden;
-    margin-left:10pt
+    margin-left:10pt;
 }
 
-.navbar-toggler-icon{
+.nav-item a{
     color:white;
 }
 
@@ -14,38 +14,25 @@
 }
 
 .active {
-    background-color:lightskyblue;
+    background-color:blue;
 }
 
 .navbar-brand{
     width: 100%;
 }
 
-@media (max-width: 992px) {
-    .nav-item {
-        font-size: small;
-    }
-    .navbar-brand img{
-        max-width: 100px;
-        height: auto;
-    }
-
+body {
+    padding: 200px 0px 0px 0px;
+    z-index: 0; 
 }
 
-@media (max-width: 576px) {
-
-    .navbar-brand {
-        width: 50px;
-        height: auto;
-    }
-
+.hope-copyright{
+    padding:20px 10px 0px 0px;
 }
-
-
-
-
-
-
+.btn-social-icon{
+    margin-right:5px;
+    margin-left:5px;
+}
 .row-header {
     margin: 0px auto;
     padding: 0px 0px; 
@@ -78,11 +65,7 @@ address {
     color: #0f0f0f; 
 }
   
-body {
-    padding: 250px 0px 0px 0px;
-    z-index: 0; 
-}
-  
+
  
 .tab-content {
     border-left: 1px solid #ddd;
@@ -116,3 +99,32 @@ body {
   
   /*# sourceMappingURL=styles.css.map */
   
+@media (max-width: 992px) {
+    .nav-item {
+        font-size: small;
+    }
+    .navbar-brand img{
+        max-width: 100px;
+        height: auto;
+    }
+    body {
+        padding: 100px 0px 0px 0px;
+        z-index: 0; 
+    }
+    .hope-copyright p{
+        font-size: small;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .navbar-brand {
+        width: 50px;
+        height: auto;
+    }
+    body {
+        padding: 100px 0px 0px 0px;
+        z-index: 0; 
+    }
+    
+}

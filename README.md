@@ -2,7 +2,7 @@
 
 ### Objective
 
-The objective of this repo is to store Hope Canberra website files. The website will be created in NodeJS and React. 
+This GitHub Repo is used to store the files for Hope Canberra Website. The website will be initially written in HTML, CSS with other packages such as Bootstrap. Eventually NodeJS and React will be added to the website. 
 
 
 ### Timeline
@@ -14,6 +14,7 @@ The objective of this repo is to store Hope Canberra website files. The website 
 |  barebone front page    |  20/12    |        |
 | ideation  | 13/1  |   |
 | Set up Private Server | 16/1 |  [link](http://www.pynex13.site)  |
+| Navbar | 30/1 |    |
 
 
 

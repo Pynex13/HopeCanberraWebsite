@@ -16,6 +16,8 @@ This GitHub Repo is used to store the files for Hope Canberra Website. The websi
 | Set up Private Server | 16/1 |  [link](http://pynex13.site/)  |
 | Navbar | 30/1 |    |
 |Footer | 2/2|  |
+|Update main page | 30/5|  |
+
 
 
 

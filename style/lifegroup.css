@@ -1,0 +1,36 @@
+.image{
+    width:600px;
+    height:400px;
+    transition:0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.image p {
+    opacity: 0;
+    color: white;
+    transform: scale(0);
+    transition: 1s;
+    font-size: 2rem;
+}
+
+.image:hover{
+    box-shadow: 0 0 0 300px rgba(0, 0, 0, 0.9) inset;
+}
+
+.image:hover p{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.anu {background-image: url(../img/anu.jpg);}
+.uc {background-image: url(../img/uc.jpg);}
+.zion {background-image: url(../img/zion.jpg);}
+.bethel {background-image: url(../img/bethel.jpg);}
+.ablaze {background-image: url(../img/ablaze.jpg);}
+.levi {background-image: url(../img/levi.jpg);}
+.eden {background-image: url(../img/eden.png);}

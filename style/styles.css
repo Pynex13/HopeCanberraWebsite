@@ -1,38 +1,49 @@
+body {
+    padding: 200px 0px 0px 0px;
+    z-index: 0; 
+}
+.zoom{
+    zoom:100%;
+}
+/* nav bar CSS*/
 .nav-item {
     font-size: x-large;
     white-space: nowrap;
     overflow: hidden;
     margin-left:10pt;
 }
-
 .nav-item a{
     color:white;
 }
-
 .bg-black{
     background-color:black;
 }
-
 .active {
     background-color:blue;
 }
-
 .navbar-brand{
     width: 100%;
 }
 
-body {
-    padding: 200px 0px 0px 0px;
-    z-index: 0; 
+/*footer and icon CSS*/
+.footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px; 
 }
-
 .hope-copyright{
     padding:20px 10px 0px 0px;
+}
+.hope-copyright p{
+    color:white;
 }
 .btn-social-icon{
     margin-right:5px;
     margin-left:5px;
 }
+
+
+/*row CSS*/
 .row-header {
     margin: 0px auto;
     padding: 0px 0px; 
@@ -44,42 +55,6 @@ body {
     border-bottom: 1px ridge;
     min-height: 400px; 
 }
-  
-.footer {
-    background-color: #D1C4E9;
-    margin: 0px auto;
-    padding: 20px 0px; 
-}
-  
-.jumbotron {
-    margin: 0px auto;
-    padding: 70px 30px;
-    background: #9575CD;
-    color: floralwhite; 
-}
-
-.hope-copyright p{
-    color:white;
-}
-
-address {
-    font-size: 80%;
-    margin: 0px;
-    color: #0f0f0f; 
-}
-  
-.tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px; 
-}
-
-.carousel-item img{
-    width: 100%;
-    height: 100%;
-}  
-
 
 
 @media (max-width: 992px) {
@@ -98,18 +73,6 @@ address {
         font-size: small;
         
     }
-    
-        /*
-    .carousel .carousel-item {
-        width: 651px;
-        height: 336px; 
-    }
-
-    .carousel .carousel-item img{
-        width: 651px;
-        height: 336px; 
-    }
-    */
 }
 
 
@@ -123,15 +86,5 @@ address {
         padding: 100px 0px 0px 0px;
         z-index: 0; 
     }
-    /*
-    .carousel .carousel-item {
-        width: 325px;
-        height: 168px; 
-    }
-    .carousel .carousel-item img{
-        width: 325px;
-        height: 168px; 
-    }
-    */
 }
 

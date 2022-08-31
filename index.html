@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
     <link href="style/styles.css" rel="stylesheet">
     <link href="style/index.css" rel="stylesheet">
     <!-- endbuild -->
@@ -32,10 +33,31 @@
             </button>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html"> Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                        
+                        <li class="nav-item dropdown-all">
+                            <a class="nav-link dropdown-button"  id="dropdownMenu" aria-expanded="false">
+                                About Us
+                            </a>
+                            <ul class="dropdown-content" >
+                                <li><a class="dropdown-itemx" href="vision.html">Our Vision</a></li>
+                                <li><a class="dropdown-itemx" href="pastor.html">Our Pastor</a></li>
+                                <li><a class="dropdown-itemx" href="hopeinternational.html">Extended Family</a></li>
+                            </ul>
+                        </li>
+                        
                         <li class="nav-item"><a class="nav-link" href="lifegroup.html">Lifegroups</a></li>
-                        <li class="nav-item"><a class="nav-link" href="corevalues.html">Core Values</a></li>
+
+
+                        <li class="nav-item dropdown-all">
+                            <a class="nav-link dropdown-button"  id="dropdownMenu" aria-expanded="false">
+                                Values
+                            </a>
+                            <ul class="dropdown-content" >
+                                <li><a class="dropdown-itemx" href="corevalues.html">Core Values</a></li>
+                                <li><a class="dropdown-itemx" href="statementoffaith.html">Statement of Faith</a></li>
+                            </ul>
+                        </li>
+
                         <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
                 </ul>
             </div>
@@ -81,7 +103,6 @@
                 </a>
             </div>
         </div>
-
 
 
         <div class="row row-content text-center front-page-title">
@@ -147,12 +168,9 @@
            </div>
         </div>
     </footer>
-
-
-
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>  
+    
+    <script src="node_modules/jquery/dist/jquery.min.js"></script> 
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>   
     <script src="js/scripts.js"></script>
     
 

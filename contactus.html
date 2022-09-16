@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link href="style/styles.css" rel="stylesheet">
+    <link href="style/contactus.css" rel="stylesheet">
     <!-- endbuild -->
 
     <title>Hope Church Canberra</title>
@@ -64,7 +65,25 @@
 
     
     <div class="container">
-        working in progress - make a form   
+        <form id="contactusform" action="contactus.html" method="post" id="signup">
+            <h1 id="contactustitle">Let's Connect</h1>
+            <h3>If you are new or have any questions about Hope Church or faith, we’re here to connect with you.</h3>
+            <div class="field">
+                <input class="textboxsmall" type="text" id="firstname" name="firstname" placeholder="First Name" onfocus="resetColor('firstname')"/>                
+                <input class="textboxsmall" type="text" id="lastname" name="lastname" placeholder="Last Name" />
+            </div>
+            <div class="field">
+                <input class="textbox" type="text" id="email" name="email" placeholder="Enter your email address" onfocus="resetColor('email')"/>
+            </div>
+            <div class="field">
+                <input class="textbox" type="text" id="phone" name="phone" placeholder="Phone No" onfocus="resetColor('phone')"/>
+            </div>
+            <div class="field">
+                <textarea class="textbox" type="text" id="message" name="message" placeholder="Message"></textarea>
+            </div>
+            <button id="submitbutton" type="submit">Submit</button>
+            <small name="completeformmessage" id="completeformmessage"></small>
+        </form>
     </div>
     
 
@@ -95,6 +114,8 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>  
     <script src="js/scripts.js"></script>
+    <script src="js/contactus.js"></script>
+
     
 
 </body>

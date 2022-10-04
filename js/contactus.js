@@ -61,7 +61,6 @@ function validatePhone(input) {
 
 function resetColor(name){
 	//this function will reset the color of the textbox
-	console.log(name);
 	const textbox = document.querySelector("#"+name);
 	textbox.style.border = "1px solid black";
 }
@@ -83,10 +82,70 @@ form.addEventListener("submit", function (event) {
 	// if valid, submit the form.
 	if (nameValid && emailValid && phoneValid) {
 
-		//this will save the data into a file locally
-		//form.elements["completeformmessage"].innerText = "form submitted"
+		// put message "Form submitted"
 		const msg = form.querySelector("small");
-		msg.innerText = "Form submitted"
+		msg.innerText = "Form submitted";
+
+
+
+		//reset the form
+		let firstnamedata = form.elements["firstname"].value;
+		let lastnamedata = form.elements["lastname"].value;
+		let emaildata = form.elements["email"].value;
+		let phonedata = form.elements["phone"].value;
+		let messagedata = form.elements["message"].value;
+
+		form.elements["firstname"].value = "";
+		form.elements["lastname"].value = "";
+		form.elements["email"].value = "";
+		form.elements["phone"].value = "";
+		form.elements["message"].value = "";
+
+		//call the AWS api that saves into the dynamoDB
+
+		async function postRequest() {
+
+			const d = new Date();
+			let randomID = Date.now() + Math.floor(Math.random()*1000);
+			let contactID = randomID.toString();
+			let dateID = d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate();
+
+			let url = "https://4ybr917jch.execute-api.ap-southeast-2.amazonaws.com/prod/contact/"
+			let data = {
+				'firstName': firstnamedata, 
+				'lastName': lastnamedata,
+				'emailAddress': emaildata,
+				'phone': phonedata,
+				'message': messagedata,
+				'contactID' : contactID,
+				'creationDate' : dateID
+			};
+			
+			console.log(data);
+
+			let res = await fetch(url, {
+				mode : 'cors',
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify(data),
+			});
+	
+			if (res.ok) {
+				
+				//response is blank, might add in the api
+				return "successful"
+	
+			} else {
+				return `HTTP error: ${res.status}`;
+			}
+		}
+	
+		postRequest().then(data => {
+			console.log(data);
+		});
+
 	}
 });
 
